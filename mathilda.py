@@ -1,10 +1,7 @@
 import wx
 import wikipedia
 import wolframalpha
-from espeak import espeak
 from keys import app_id
-
-espeak.synth('Welcome')
 
 
 class MyFrame(wx.Frame):
